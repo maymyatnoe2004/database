@@ -1,7 +1,7 @@
-import Image from "next/image";
+import VibeVerseApp from "../components/VibeVerseApp";
 
-export default function Home() {
-  return (
-   <div>Vibe</div>
-  );
+export const metadata = { title: "Vibe | VibeVerse" };
+
+export default function VibePage() {
+  return <VibeVerseApp page="home" />;
 }
